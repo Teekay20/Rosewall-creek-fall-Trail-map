@@ -1,0 +1,48 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.0",
+    "leaflet": "1.9.4",
+    "react-leaflet": "5.0.0",
+    "react-leaflet-cluster": "2.1.0",
+    "proj4": "2.15.0",
+    "togeojson": "0.16.0",
+    "@tmcw/togeojson": "6.0.1",
+    "react-leaflet-geosearch": "0.3.4",
+    "react-leaflet-measure": "2.1.1",
+    "@xyo-network/react-elevation-map-quadkey-plugin": "4.4.10",
+    "leaflet-geosearch": "4.2.0",
+    "leaflet-measure": "3.1.0",
+    "@raruto/leaflet-elevation": "2.5.1",
+    "react-leaflet-fullscreen": "4.1.1",
+    "screenfull": "6.0.2",
+    "leaflet-fullscreen": "1.0.2",
+    "@fortawesome/react-fontawesome": "0.2.2",
+    "@fortawesome/fontawesome-svg-core": "6.7.2",
+    "@fortawesome/free-solid-svg-icons": "6.7.2"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "loader-utils": "3.2.1",
+    "typescript": "5.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

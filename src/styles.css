@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.circular-icon {
+  border-radius: 50%; /* Make the icon circular */
+  overflow: hidden; /* Hide the rectangular part outside the circle */
+  width: 20px; /* Match the icon size */
+  height: 20px; /* Match the icon size */
+}
+.circular-icon {
+  border-radius: 50%; /* Make the icon circular */
+  overflow: hidden; /* Hide the rectangular part outside the circle */
+  filter: brightness(1.2) contrast(1.2); /* Brighten and increase contrast */
+}
+
+.circular-icon {
+  border-radius: 50%; /* Make the icon circular */
+  overflow: hidden; /* Hide the rectangular part outside the circle */
+}
+
+/* styles.css */
+
+/* Ensure the map container takes up the full height and width of its parent */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+/* Ensure the parent div of the map container takes up the full height and width */
+.map-container {
+  height: 100vh; /* Default to full screen */
+  width: 100%;
+  transition: height 0.3s ease; /* Smooth transition for height changes */
+}
+
+/* Half-screen mode */
+.map-container.half-screen {
+  height: 50vh;
+}
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+button {
+  position: absolute;
+  z-index: 10000; /* Ensure it's on top */
+}
