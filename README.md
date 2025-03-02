@@ -16,3 +16,6 @@ This project showcases a topographic and interactive web map for the Rosewall Cr
 
 Significance:
 This interactive web map enhances trail navigation and outdoor exploration while supporting data-driven trail maintenance and preservation. By combining topographic data, GPX routes, and interactive waypoints, it aids hikers in planning their journey and helps trail managers identify areas needing repair, ensuring the trail remains safe and sustainable for future use. A vital tool for both adventurers and conservation efforts!
+
+
+Here's the link to the interactive web map: https://codesandbox.io/p/github/Teekay20/Rosewall-creek-fall-Trail-map
